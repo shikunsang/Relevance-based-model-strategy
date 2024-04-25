@@ -16,6 +16,9 @@ Our strategy consists of the following components:
 1. **yf.py**: This script retrieves financial data from Yahoo Finance.
 2. **backtest.py**: I've personally developed this backtesting engine.
 3. **knn_strategy.py**: The heart of our strategy lies in this script.
+4. **cal_features.py**: Get the features we need from the raw data.
 
-Feel free to explore the code and adapt it to your needs. Happy researching and backtesting! 📈
+The performance of the strategy is in the result folder.
+
+
 
