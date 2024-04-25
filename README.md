@@ -1,4 +1,21 @@
-This is the researh and backtest codes of the KNN strategy. 
-yf.py get data from yahoo fincance. 
-backtest.py is the backtest engine written by myself. 
-knn_strategy.py is the strategy part.
+# KNN Strategy for Predicting Future Returns
+
+## Overview
+
+The basic idea behind our group's strategy is to identify historical days that share similar features with the current day. By doing so, we believe that the future returns on these similar past days will also be comparable to today's returns.
+
+We achieve this using the K-Nearest Neighbors (KNN) algorithm. Specifically:
+
+1. For a given time point **t**, we examine historical data to find days that closely resemble the current day.
+2. These similar days serve as reference points for predicting future returns.
+
+## Components
+
+Our strategy consists of the following components:
+
+1. **yf.py**: This script retrieves financial data from Yahoo Finance.
+2. **backtest.py**: I've personally developed this backtesting engine.
+3. **knn_strategy.py**: The heart of our strategy lies in this script.
+
+Feel free to explore the code and adapt it to your needs. Happy researching and backtesting! 📈
+
